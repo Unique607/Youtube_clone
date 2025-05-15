@@ -1,3 +1,3 @@
-# Youtube_clone
+# Spotify_clone
 
-Youtube Clone using HTML, CSS, JSS, Bootstrap
+Spotify Clone using HTML, CSS, JS
