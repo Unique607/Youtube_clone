@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Listen your favourite music </title>
+    <link rel="stylesheet" href="style.css">
+                <!-- REMIXICON-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="covers/letMe.jpg" alt="1">
+                    <span class="songName">Let me be with U</span>
+                    <span class="songListPlay"><span class="timestamp">04:28 <i id="1" class="songItemPlay ri-play-circle-line"></i> </span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="covers/AnotherDay.jpg" alt="1">
+                    <span class="songName">Another Day</span>
+                    <span class="songListPlay"><span class="timestamp">03:38 <i id="2" class="songItemPlay ri-play-circle-line"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="covers/Aasman.jpg" alt="1">
+                    <span class="songName">Aasman ko Chukar Dekha</span>
+                    <span class="songListPlay"><span class="timestamp">04:41 <i id="3" class="songItemPlay ri-play-circle-line"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="covers/chandsitare.jpg" alt="1">
+                    <span class="songName">Chand Sitare Phul or Khusboo</span>
+                    <span class="songListPlay"><span class="timestamp">06:33 <i id="4" class="songItemPlay ri-play-circle-line"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="covers/Jhumka.jpg" alt="1">
+                    <span class="songName">Gir gya jhumka</span>
+                    <span class="songListPlay"><span class="timestamp">04:20 <i id="5" class="songItemPlay ri-play-circle-line"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="covers/Krishna.jpg" alt="1">
+                    <span class="songName">Krishna Trance</span>
+                    <span class="songListPlay"><span class="timestamp">03:03 <i id="6" class="songItemPlay ri-play-circle-line"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="covers/KaalBhairav.jpg" alt="1">
+                    <span class="songName">KaalBhairavAstkam</span>
+                    <span class="songListPlay"><span class="timestamp">04:41 <i id="7" class="songItemPlay ri-play-circle-line"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="covers/TumAaGyeHoo.png" alt="1">
+                    <span class="songName">Tum Aa Gye Hoo</span>
+                    <span class="songListPlay"><span class="timestamp">04:14 <i id="8" class="songItemPlay ri-play-circle-line"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="covers/Suzume.jpg" alt="1">
+                    <span class="songName">Suzume No Tojimari</span>
+                    <span class="songListPlay"><span class="timestamp">04:37 <i id="9" class="songItemPlay ri-play-circle-line"></i></span></span>
+                </div>
+                
+
+                
+
+                <div class="songItem">
+                    <img src="covers/MainHiShivHoo.jpg" alt="1">
+                    <span class="songName">Mai Hi Shiv Hoo</span>
+                    <span class="songListPlay"><span class="timestamp">03:25 <i id="10" class="songItemPlay ri-play-circle-line"></i></span></span>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value ="0" max="100">
+        <div class="icons">
+            <i class="ri-skip-back-line" id="previous"></i>
+            <i class="ri-play-circle-line" id="masterPlay"></i>
+            <i class="ri-skip-forward-line" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName">Song_1</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
